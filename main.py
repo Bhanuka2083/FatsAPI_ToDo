@@ -118,6 +118,6 @@ async def api_delete_task(
 
 @app.get("/", summary="Root Welcome Endpoint")
 async def root():
-    return {"message": "Welcome to the Todo API! Head over to /docs to view endpoints."}
+    return {"message": "Welcome to the Todo API! Head over to /docs to view endpoints..."}
 
 
