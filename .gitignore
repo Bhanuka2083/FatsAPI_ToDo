@@ -1,0 +1,50 @@
+# === Python Environment & Dependencies ===
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+lib/
+lib64/
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# === Environment Variables & Secrets (CRITICAL) ===
+.env
+*.env
+.env.*
+secrets.json
+*.pem
+*.key
+
+# === Database (SQLite/PostgreSQL local dumps) ===
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+.db_data/
+pgdata/
+
+# === Testing & Coverage ===
+.pytest_cache/
+.coverage
+htmlcov/
+flake8/
+.mypy_cache/
+.ruff_cache/
+
+# === VS Code & IDE Settings ===
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# === OS Garbage Files ===
+.DS_Store
+Thumbs.db
